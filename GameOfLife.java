@@ -48,7 +48,7 @@ public class GameOfLife implements Board {
         return board[(x+xLimit)%xLimit][(y+yLimit)%yLimit];
     }
 
-    // Test helper to get the whole board state
+    // Test helper to get the whole board statedzxc
     public int[][] get()
     {
         return board;
